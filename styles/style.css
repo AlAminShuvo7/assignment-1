@@ -4,10 +4,20 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+}
+
 .azeret-mono-default {
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
   font-style: normal;
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321ff;
 }
 
 .t-10 {
@@ -26,6 +36,9 @@
     color: #fff;
 }
 
+.bold {
+    font-weight: 700;
+}
 
 .semibold {
     font-weight: 600;
@@ -61,10 +74,6 @@
 
 /* Navigation Styles  */
 
-body {
-    margin: 0;
-}
-
 header > nav {
     display: flex;
     justify-content: space-between;
@@ -95,7 +104,7 @@ header nav a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 26px 221px 45px;
+    padding: 26px 221px 0px;
 }
 
 .bio img {
@@ -116,7 +125,7 @@ header nav a {
 
 .bio a {
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     text-decoration: none;
 }
 
@@ -138,4 +147,96 @@ header nav a {
 
 .bio > * {
     text-align: center;
+}
+
+/* Description Section  */
+
+.description {
+    background-color: #FAFAFB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 12%;
+    border-radius: 16px;
+}
+
+.innerbox {
+    padding: 5%;
+}
+
+.desc-top {
+    margin-bottom: 45px;
+    text-align: center;
+    padding: 0 7%;
+}
+
+.desc-top h3 {
+    margin-bottom: 0;
+}
+
+.desc-top p {
+    margin-top: 20px;
+    opacity: 70%;
+}
+
+.desc-details {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 5px;
+}
+
+.detail {
+    display: flex;
+    margin: 0 20px;
+}
+
+.card-1 {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-image: linear-gradient(90deg, #fff, #FAFAFB);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    border-radius: 16px;
+    padding-bottom: 20px;
+}
+
+.card-1 .assert h5 {
+    margin-bottom: 20px;
+}
+
+.card-1 .assert p {
+    opacity: 70%;
+    margin-top: 2px;
+}
+
+.assert {
+    width: 60%;
+    margin: 10px 10px;
+}
+
+.card-1 > img {
+    width: 25%;
+   height: 240px; 
+}
+
+.desc-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid #0D132166;
+    padding: 12px 18px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+#rev {
+    display: flex;
+    flex-direction: row-reverse;
+    background-image: linear-gradient(90deg, #FAFAFB, #fff);
 }
