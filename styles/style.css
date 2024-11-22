@@ -1,0 +1,90 @@
+/* COMMON STYLES  */
+
+* {
+    box-sizing: border-box;
+}
+
+.azeret-mono-default {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.t-10 {
+    color: #0D1321ff;
+}
+
+.t-7 {
+    color: #0D1321b3;
+}
+
+.t-4 {
+    color: #0D132166;
+}
+
+.t-white {
+    color: #fff;
+}
+
+
+.semibold {
+    font-weight: 600;
+}
+
+.extrabold {
+    font-weight:800;
+}
+
+.f-16 {
+    font-size: 16px;
+}
+
+.f-20 {
+    font-size: 20px;
+}
+
+.f-24 {
+    font-size: 24px;
+}
+
+.f-28 {
+    font-size: 28px;
+}
+
+.f-32 {
+    font-size: 32px;
+}
+
+.f-48 {
+    font-size: 48px;
+}
+
+/* Navigation Styles  */
+
+header {
+    margin: 37px 150px;
+}
+
+header > nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header nav a {
+    text-decoration: none;
+    margin: 0;
+    padding: 17px 24px;
+    border: 1px solid #0D1321;
+    border-radius: 8px;
+    text-align: center;
+    margin: 0;
+    opacity: 80%;
+}
+
+/* Hero Styles  */
+
+.hero {
+    background-image: url("../images/Hero-bg.png");
+}
