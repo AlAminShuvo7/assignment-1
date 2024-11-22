@@ -120,9 +120,15 @@ header nav a {
     text-decoration: none;
 }
 
+.bio a:link {
+    color: #fff;
+}
+
 .bio a:visited {
     color: #fff;
 }
+
+.bio a:vi
 
 .bio-btn {
     background-color: #0D1321;
