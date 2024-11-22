@@ -104,7 +104,7 @@ header nav a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 26px 221px 0px;
+    padding: 26px 221px 40px;
 }
 
 .bio img {
@@ -137,7 +137,6 @@ header nav a {
     color: #fff;
 }
 
-.bio a:vi
 
 .bio-btn {
     background-color: #0D1321;
@@ -407,4 +406,64 @@ header nav a {
 
 .next-details p {
     margin-bottom: 20px;
+}
+
+
+/* Footer Section  */
+
+.contact {
+    margin: 20px 200px;
+    background-image:linear-gradient(90deg, rgba(18, 22, 33, 0.232) 0%, rgba(28, 36, 78, 0.63) 50%, rgba(34, 34, 73, 0.315) 100%), url("../images/handshake.jpg");
+    object-fit: fill;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact h3, .contact p {
+    color: #fff;
+}
+
+.contact-me {
+    padding: 50px;
+    text-align: center;
+}
+
+.contact-me p {
+    opacity: 70%;
+}
+
+.contact-me h3 {
+    margin-bottom: 15px;
+}
+
+#feedback {
+    width: 320px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+}
+
+#feedback[placeholder] {
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+#feed-sub {
+    height: 50px;
+    width: 150px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+}
+
+.last {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #0D132108;
+    align-items: center;
+    padding: 0 180px;
 }
